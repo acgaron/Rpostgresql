@@ -6,7 +6,7 @@ drv <- dbDriver("PostgreSQL")
 
 con <- dbConnect(drv, dbname = "nbastats",
                  host = "acgpostgres.cm478rhwwdgh.us-east-1.rds.amazonaws.com", port = 5432,
-                 user = "acgaron", password = "Boeing747")
+                 user = "", password = "")
 
 #test
 dbExistsTable(con, "nbastats")
